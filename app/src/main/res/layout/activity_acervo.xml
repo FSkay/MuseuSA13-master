@@ -20,7 +20,7 @@
                 android:id="@+id/nMom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nº MOM-"
+                android:hint="Nº MOM -"
                 android:textSize="24sp" />
 
             <LinearLayout
@@ -37,7 +37,7 @@
                         android:id="@+id/NomeObj"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Nome Objeto:"
+                        android:hint="Nome Objeto"
                         android:textSize="24sp" />
 
                     <LinearLayout
@@ -54,7 +54,7 @@
                                 android:id="@+id/doadorObj"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Doador objeto:"
+                                android:hint="Doador Objeto:"
                                 android:textSize="24sp" />
 
                             <LinearLayout

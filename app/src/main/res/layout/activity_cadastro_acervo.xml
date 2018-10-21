@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Nº Registro MOM-"
+                android:hint="Nº MOM -"
                 android:inputType="textPersonName" />
 
             <EditText
@@ -61,6 +61,12 @@
                 android:layout_height="wrap_content"
                 android:onClick="apagarTudo"
                 android:text="Apagar" />
+
+            <Button
+                android:id="@+id/btEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Editar" />
 
         </LinearLayout>
     </LinearLayout>
